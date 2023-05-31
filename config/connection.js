@@ -5,4 +5,4 @@ mongoose.connect('mongodb://127.0.0.1/userdb', {
 })
 
 
-module.exports =mongoose.connection;
+module.exports = mongoose.connection;
