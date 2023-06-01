@@ -40,7 +40,8 @@ module.exports = {
     createThought,
     getSingleThought,
     getThoughts,
-    deleteThought
+    deleteThought,
+    updateThought,
 }
 
 
