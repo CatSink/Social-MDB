@@ -1,6 +1,6 @@
 const express = require('express');
 const mongodb = require('./config/connection');
-const routes = require('./controllers');
+const routes = require('controllers');
 const app = express();
 const port = process.env.PORT || 3001;
 const connectionStringURI = 'mongodb'

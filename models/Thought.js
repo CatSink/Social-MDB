@@ -1,5 +1,5 @@
 const {Schema, model} = require('mongoose');
-
+const
 const thoughtSchema = new Schema(
     {
        thoughtText: {
